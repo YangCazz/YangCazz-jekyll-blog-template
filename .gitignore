@@ -1,0 +1,26 @@
+# Jekyll
+_site/
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+.bundle
+vendor/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.log
+tmp/
+*.tmp
+
+# Claude Code
+.claude/
+CLAUDE.md

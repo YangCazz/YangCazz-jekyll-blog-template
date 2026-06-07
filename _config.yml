@@ -1,0 +1,50 @@
+title: My Tech Blog
+description: A personal technical blog powered by Jekyll + GitHub Pages
+url: https://YOUR_USERNAME.github.io
+timezone: Asia/Shanghai
+
+sass:
+  style: compressed
+
+future: true
+show_drafts: false
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+  math_engine: mathjax
+  math_engine_opts:
+    preview: true
+    preview_as_code: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - README.md
+  - CHANGELOG.md
+
+plugins:
+  - jekyll-octicons
+  - jemoji
+  - jekyll-feed
+  - jekyll-sitemap
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+permalink: /:year/:month/:day/:title/

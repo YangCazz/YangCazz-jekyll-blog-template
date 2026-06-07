@@ -1,0 +1,30 @@
+# 标签注册表 — 示例
+# 每篇文章的标签必须在此注册，构建时自动校验
+
+- name: "深度学习"
+  type: domain
+  aliases: []
+  description: "深度神经网络模型训练与优化"
+  references:
+    - "https://en.wikipedia.org/wiki/Deep_learning"
+
+- name: "计算机视觉"
+  type: domain
+  aliases: []
+  description: "图像识别、目标检测、语义分割等视觉任务"
+  references:
+    - "https://en.wikipedia.org/wiki/Computer_vision"
+
+- name: "PyTorch"
+  type: method
+  aliases: []
+  description: "Facebook 开源的深度学习框架"
+  references:
+    - "https://en.wikipedia.org/wiki/PyTorch"
+
+- name: "Jekyll"
+  type: method
+  aliases: []
+  description: "静态网站生成器"
+  references:
+    - "https://en.wikipedia.org/wiki/Jekyll_(software)"

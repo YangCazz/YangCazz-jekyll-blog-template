@@ -1,0 +1,15 @@
+# 全局导航
+- id: home
+  name: 首页
+  icon: home
+  url: /
+
+- id: blog
+  name: 博客
+  icon: note
+  url: /blog
+
+- id: tag-network
+  name: 关键词
+  icon: graph
+  url: /tag-network-v2
