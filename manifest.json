@@ -1,7 +1,7 @@
 {
-  "name": "YangCazz - 技术博客",
-  "short_name": "YangCazz",
-  "description": "医疗机器人算法工程师的技术博客，分享医学图像处理、深度学习、机器人控制等技术心得",
+  "name": "My Tech Blog",
+  "short_name": "MyBlog",
+  "description": "A personal technical blog powered by Jekyll + GitHub Pages",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#2b2d42",

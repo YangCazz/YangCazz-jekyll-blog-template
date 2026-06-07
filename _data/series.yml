@@ -23,21 +23,8 @@
     - slug: graph-echo-state-networks
     - slug: gcn-principles-mathematical-derivation
     - slug: gcn-pytorch-implementation
-    - slug: gnn-medical-image-processing
     - slug: heterogeneous-gnn-multimodal
     - slug: gnn-survey-writing-guide
-
-- id: medical-segmentation
-  name: 医学图像分割
-  posts:
-    - slug: fcn-unet-foundation
-    - slug: vnet-3d-segmentation
-    - slug: attention-unet
-    - slug: unet-plus-series
-    - slug: transunet-hybrid-architecture
-    - slug: swin-unet-hierarchical-transformer
-    - slug: sam-segment-anything
-    - slug: nnunet-self-configuring-framework
 
 - id: object-detection
   name: 目标检测
@@ -51,16 +38,21 @@
     - slug: yolo-variants
     - slug: yolo-practical
 
-- id: pixelknit
-  name: PixelKnit 像素织梦
-  posts:
-    - slug: knitting-guide-web-app
-    - slug: pixelknit-v1.1-editor-update
-    - slug: pixelknit-v2.0-modular-architecture
-
 - id: claude-code
   name: Claude Code 系列
   posts:
     - slug: claude-code-practical-guide
     - slug: claude-code-vscode-setup
     - slug: agent-skills-architecture
+
+- id: example-series-a
+  name: 示例系列 A
+  posts:
+    - slug: example-post-1
+    - slug: example-post-2
+
+- id: example-series-b
+  name: 示例系列 B
+  posts:
+    - slug: example-post-3
+    - slug: example-post-4
